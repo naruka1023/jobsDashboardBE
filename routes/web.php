@@ -17,5 +17,4 @@
 
 Auth::routes();
 
-Route::get('/home', 'HomeController@index')->name('home');
 Route::get('/', 'ChooseCompany@index')->name('home');
