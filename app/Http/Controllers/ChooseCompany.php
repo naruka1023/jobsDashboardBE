@@ -3,7 +3,7 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
-use App\Company;
+use App\company;
 class ChooseCompany extends Controller
 {
     /**
@@ -25,7 +25,7 @@ class ChooseCompany extends Controller
     {
         $companyInfoArray = array();
         // $this->middleware('auth');
-        $rawData = Company::all();
+        $rawData = company::all();
         $index = 0;
         foreach($rawData as $r){
             $block = new \stdClass;
