@@ -2,9 +2,9 @@
 
 namespace App\Http\Controllers;
 use Illuminate\Support\Facades\DB;
-use App\Job;
-use App\Company;
-use App\Application;
+use App\job;
+use App\company;
+use App\application;
 use Illuminate\Http\Request;
 
 class jobRetriever extends Controller
