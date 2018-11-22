@@ -25,7 +25,7 @@ class ChooseCompany extends Controller
     {
         $companyInfoArray = array();
         // $this->middleware('auth');
-        $rawData = company::all();
+        $rawData = Company::all();
         $index = 0;
         foreach($rawData as $r){
             $block = new \stdClass;
